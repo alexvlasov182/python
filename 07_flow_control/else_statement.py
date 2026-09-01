@@ -6,18 +6,18 @@ else:
  # block of code to be executed
 """
 
-number = 100
+NUMBER = 100
 
-if number == 100:
-    print(f"number is equal to {number}")
+if NUMBER == 100:
+    print(f"number is equal to {NUMBER}")
 else:
-    print(f"number is not equal to 100")
+    print("number is not equal to 100")
 
 print("will always be executed")
 
-hour = 12
-if hour == 18:
-    message = "Good morning"
+HOUR = 12
+if HOUR == 18:
+    MESSAGE = "Good morning"
 else:
-    message = "Good afternoon"
-print(message)
+    MESSAGE = "Good afternoon"
+print(MESSAGE)
