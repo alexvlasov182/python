@@ -13,13 +13,3 @@ else:
 
 """
 
-if hour < 15:
-HOUR = 15
-
-if HOUR < 15:
-    print("Good morning")
-elif hour < 20:
-elif HOUR < 20:
-    print("Good afternoon")
-else:
-    print("Good night")
